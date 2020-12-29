@@ -1,21 +1,16 @@
 import react,{Component} from 'react'
+import Header from "./Header/header"
+import Body from "./Body/body";
 
 class Main extends Component{
-
-
-
-
-
 render(){
     return (
                 <>
-                <h1>Hiiiiii</h1>
+                <Header />
+                <Body/>
                 </>
     );
 }
-
-
-
 } 
 
 export default Main
